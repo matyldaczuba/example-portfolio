@@ -22,6 +22,7 @@ hr{
 
 .main-box {
     width: 100%;
+    position: relative;
 
 }
 
@@ -43,7 +44,7 @@ hr{
     text-align: center;
 }
 
-.title h1{
+#main-logo > .title > h1{
     font-size: 300%;
     margin: 10px;
 }
@@ -77,8 +78,12 @@ hr{
 
 section{
     width: 100%;
-    
+    box-sizing: border-box;
+    padding: 150px 20%;
 }
-section h1{
+section > h1{
     text-transform: uppercase;
+    text-align: center;
+    font-weight: 200;
+    
 }
