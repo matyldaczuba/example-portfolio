@@ -14,10 +14,13 @@ a{
     color: #007bff;
 }
 
+
+
 hr{
     width: 80px;
     border: 0;
     border-bottom: 1px solid #007bff;
+    margin-bottom: 30px;
 }
 
 .main-box {
@@ -49,12 +52,13 @@ hr{
     margin: 10px;
 }
 
-.title button{
+button{
     padding: 15px;
     text-transform: uppercase;
     background-color: rgb(0,0,0,0);
     border: 1px solid #007bff;
     margin-top: 20px;
+    
 }
 
 #navbar {
@@ -80,10 +84,32 @@ section{
     width: 100%;
     box-sizing: border-box;
     padding: 150px 20%;
+    text-align: center;
 }
 section > h1{
     text-transform: uppercase;
     text-align: center;
     font-weight: 200;
+    
+}
+
+section > p{
+    text-align: left;
+}
+
+.about-img{
+    margin: 50px 0;
+    
+}
+
+.section-img img{
+    border-radius: 50%;
+}
+
+.portfolio{
+    display: flex;
+}
+
+.portfolio-img{
     
 }
