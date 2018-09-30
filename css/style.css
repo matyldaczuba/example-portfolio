@@ -1,0 +1,9 @@
+.main-box{
+
+}
+
+#logo{
+    height: 70vh;    
+    background: url(../img/header.jpg) center;
+    background-size: cover;
+}
