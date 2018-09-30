@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Open Sans', arial;
 
@@ -5,6 +9,15 @@ body{
 
 a{
     text-decoration: none;
+}
+
+button{
+    padding: 15px;
+    text-transform: uppercase;
+    background-color: rgb(0,0,0,0);
+    border: 1px solid #007bff;
+    margin-top: 20px;
+    
 }
 
 .blue-font{
@@ -47,14 +60,7 @@ hr{
     margin: 10px;
 }
 
-button{
-    padding: 15px;
-    text-transform: uppercase;
-    background-color: rgb(0,0,0,0);
-    border: 1px solid #007bff;
-    margin-top: 20px;
-    
-}
+
 /*     ########      NAVIGATION       #########       */
 #navbar {
     height: 50px;
@@ -67,7 +73,7 @@ button{
     display: inline-block;
     color: #fff;
     padding: 15px;
-    transition: all 3s;
+    transition: all .3s;
     text-align: center;
 
 }
@@ -83,7 +89,7 @@ section{
     box-sizing: border-box;
     padding: 100px 20%;
     text-align: center;
-    color: #777;
+    
 }
 section > h1{
     text-transform: uppercase;
@@ -92,8 +98,9 @@ section > h1{
     
 }
 
-section > p{
+section p{
     text-align: left;
+    color: #777;
 }
 
 .about-img{
@@ -105,17 +112,43 @@ section > p{
     border-radius: 50%;
 }
 
-.portfolio{
-    display: flex;
+.portfolio{    
     padding: 150px 10%;
 }
 
-.portfolio-img{
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-img{
     width: 25%;
     margin: 0;
     padding: 0;
+    flex-basis: 25%;
+    position: relative;
 }
 
-.portfolio-img img{
-    width: 100%;
+.flex-img img{
+    max-width: 100%;
+    display: block;
 }
+
+.flex-img a{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 300;
+    transition: all .3s;
+    
+}
+
+.flex-img span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
