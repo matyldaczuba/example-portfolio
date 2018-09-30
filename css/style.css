@@ -1,9 +1,61 @@
-.main-box{
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+.gray-font{
+    color: #333;
+}
+
+.blue-font{
+    color: #007bff;
+}
+
+hr{
+    width: 100px;
+}
+
+.main-box {
+    width: 100%;
 
 }
 
-#logo{
-    height: 70vh;    
+#main-logo {
+    height: 70vh;
+    width: 100%;
     background: url(../img/header.jpg) center;
     background-size: cover;
+    position: relative;
+}
+
+
+.title {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.title h1{
+    font-size: 300%;
+}
+
+.title button{
+    padding: 15px;
+    text-transform: uppercase;
+    background-color: 
+}
+
+#navbar {
+    height: 50px;
+    background: #007bff;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item{
+    text-transform: uppercase;
+    color: #fff;
+    padding: 15px 50px;
 }
