@@ -1,179 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;subset=latin-ext" rel="stylesheet">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portfolio</title>
+   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/rwd.css">
 </head>
-
 <body>
-    <div class="main-box">
 
-        <header id="main-logo">
-            <div class="title">
-                <h1 class="blue-font">
-                    FRONT END DEVELOPER
+   <header class="header">
+      <div class="header-content">
+         <h1>Front End Developer</h1>
+         <p>
+            HTML
+            <span>&bull;</span>
+            CSS
+            <span>&bull;</span>
+            JavaScript
+         </p>
+         <a href="" class="link">Dowiedz się więcej</a>
+      </div>
+   </header>
 
-                </h1>
-                <hr>
-                <p>
-                    HTML
-                    <span class="blue-font">&bull;</span>
-                    CSS
-                    <span class="blue-font">&bull;</span>
-                    JavaScript
-                </p>
-                <a href="#"><button> Dowiedz się więcej</button></a>
+<nav class="menu">
+        <label for="drop-nav" class="drop-nav-label">Menu</label>
+        <input type="checkbox" id="drop-nav">
 
-            </div>
+        <ul class="menu-section">
 
-        </header>
+           <li class="menu-list"> <a href="#omnie">O mnie</a>
+ </li>
+            <li class="menu-list"><a href="#portfolio">Portfolio</a></li>
+            <li class="menu-list"><a href="#kontakt">Kontakt</a></li>
+            
+        </ul>
+    </nav>
 
-        <nav id="navbar">
+   <section class="section" id="omnie">
+      <h2 class="section-title">O mnie</h2>
+      <img src="img/about.jpg" class="about-img" alt="">
+      <div class="section-content">
+         <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam architecto excepturi dolorum corrupti! Deserunt, dolores omnis! Hic deleniti accusamus laudantium assumenda necessitatibus eius qui doloribus provident ipsam magnam mollitia quia culpa dolore, animi cumque voluptates possimus fuga error sit, nisi ab ratione tempora. Deleniti vero porro, nihil consequatur nam amet tenetur voluptas ducimus atque optio neque.
+         </p>
+         <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam dolore, delectus fugit dolores perspiciatis amet neque ad dolorum eum sint saepe officiis dolor sapiente repellat, temporibus est facere molestiae sequi, nam corporis quos? Incidunt porro minus consectetur laudantium veritatis ipsam?
+         </p>
+         <a href="#portolio" class="link">Moje portfolio</a>
+      </div>
+   </section>
 
-            <a href="#about">
-                O mnie
+   <section class="section section-decor" id="portfolio">
+      <h2 class="section-title">Portfolio</h2>
+      <div class="flex flex-width-90">
+         <figure class="flex-el">
+            <img src="img/portfolio/photo-1.jpg" alt="">
+            <a href="">
+               <span>Photo</span>
             </a>
-            <a href="#">
-                Portfolio
+         </figure>
+         <figure class="flex-el">
+            <img src="img/portfolio/photo-2.jpg" alt="">
+            <a href="">
+               <span>Photo</span>
             </a>
-            <a href="#">
-                Kontakt
+         </figure>
+         <figure class="flex-el">
+            <img src="img/portfolio/photo-3.jpg" alt="">
+            <a href="">
+               <span>Photo</span>
             </a>
+         </figure>
+         <figure class="flex-el">
+            <img src="img/portfolio/photo-4.jpg" alt="">
+            <a href="">
+               <span>Photo</span>
+            </a>
+         </figure>
+         <figure class="flex-el">
+            <img src="img/portfolio/photo-5.jpg" alt="">
+            <a href="">
+               <span>Photo</span>
+            </a>
+         </figure>
+         <figure class="flex-el">
+            <img src="img/portfolio/photo-6.jpg" alt="">
+            <a href="">
+               <span>Photo</span>
+            </a>
+         </figure>
+         <figure class="flex-el">
+            <img src="img/portfolio/photo-7.jpg" alt="">
+            <a href="">
+               <span>Photo</span>
+            </a>
+         </figure>
+         <figure class="flex-el">
+            <img src="img/portfolio/photo-8.jpg" alt="">
+            <a href="">
+               <span>Photo</span>
+            </a>
+         </figure>
+         <figure class="flex-el">
+            <img src="img/portfolio/photo-9.jpg" alt="">
+            <a href="">
+               <span>Photo</span>
+            </a>
+         </figure>
+         <figure class="flex-el">
+            <img src="img/portfolio/photo-10.jpg" alt="">
+            <a href="">
+               <span>Photo</span>
+            </a>
+         </figure>
+         <figure class="flex-el">
+            <img src="img/portfolio/photo-11.jpg" alt="">
+            <a href="">
+               <span>Photo</span>
+            </a>
+         </figure>
 
-        </nav>
+         <figure class="flex-el">
+            <img src="img/portfolio/photo-12.jpg" alt="">
+            <a href="">
+               <span>Photo</span>
+            </a>
+         </figure>
+      </div>
+   </section>
 
-        <section id="about">
-            <h1>O mnie</h1>
-            <hr>
-            <figure class="about-img">
-                <img src="img/about.jpg" alt="about">
-            </figure>
+   <section class="section" id="kontakt">
+      <h2 class="section-title">Kontakt</h2>
+      <form action="">
+         <div class="flex flex-form">
+            <input type="text" placeholder="Imię">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Wiadomość" maxlength="300"></textarea>
+         </div>
+         <button class="link link-btn">Wyślij</button>
+      </form>
 
-            <article>
+      <div class="socials">
+         <a href="">
+             <i class="fab fa-facebook-square"></i>
+         </a>
+         <a href="">
+             <i class="fab fa-twitter-square"></i>
+         </a>
+         <a href="">
+             <i class="fab fa-youtube"></i>
+         </a>
+         <a href="">
+             <i class="fab fa-instagram"></i>
+         </a>
+      </div>
+   </section>
 
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut sequi dolorum tempora reiciendis illo ducimus quas. Possimus quis iure, ad beatae necessitatibus similique saepe tenetur tempora pariatur! Pariatur vel quae iusto repudiandae facere sequi, animi mollitia ullam architecto omnis quia qui fugiat necessitatibus quo blanditiis, expedita quasi, in veritatis placeat.
-                </p>
+   <footer>
+       <p>Copyright &copy; </p>
+   </footer>
 
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima laboriosam vero, mollitia, odio culpa ea quibusdam eaque eveniet sint impedit consequuntur, sit. Id sapiente vero, suscipit asperiores sed, in delectus.
-                </p>
-
-            </article>
-            <a href="#"><button> Dowiedz się więcej</button></a>
-        </section>
-
-        <section class="portfolio">
-            <h1>Portfolio</h1>
-            <hr>
-            <div class="flex">
-                <figure class="flex-img">
-                    
-                    <img src="img/portfolio/photo-1.jpg" alt="">
-                    <a href="">
-                        <span>Projekt</span>
-                    </a>
-                </figure>
-                
-                <figure class="flex-img">
-                    
-                    <img src="img/portfolio/photo-1.jpg" alt="">
-                    <a href="">
-                        <span>Projekt</span>
-                    </a>
-                </figure>
-                
-                <figure class="flex-img">
-                    
-                    <img src="img/portfolio/photo-1.jpg" alt="">
-                    <a href="">
-                        <span>Projekt</span>
-                    </a>
-                </figure>
-                
-                <figure class="flex-img">
-                    
-                    <img src="img/portfolio/photo-1.jpg" alt="">
-                    <a href="">
-                        <span>Projekt</span>
-                    </a>
-                </figure>
-                
-                <figure class="flex-img">
-                    
-                    <img src="img/portfolio/photo-1.jpg" alt="">
-                    <a href="">
-                        <span>Projekt</span>
-                    </a>
-                </figure>
-                
-                <figure class="flex-img">
-                    
-                    <img src="img/portfolio/photo-1.jpg" alt="">
-                    <a href="">
-                        <span>Projekt</span>
-                    </a>
-                </figure>
-                
-                <figure class="flex-img">
-                    
-                    <img src="img/portfolio/photo-1.jpg" alt="">
-                    <a href="">
-                        <span>Projekt</span>
-                    </a>
-                </figure>
-                
-                
-                <figure class="flex-img">
-                    
-                    <img src="img/portfolio/photo-1.jpg" alt="">
-                    <a href="">
-                        <span>Projekt</span>
-                    </a>
-                </figure>
-                
-                <figure class="flex-img">
-                    
-                    <img src="img/portfolio/photo-1.jpg" alt="">
-                    <a href="">
-                        <span>Projekt</span>
-                    </a>
-                </figure>
-                
-                <figure class="flex-img">
-                    
-                    <img src="img/portfolio/photo-1.jpg" alt="">
-                    <a href="">
-                        <span>Projekt</span>
-                    </a>
-                </figure>
-                
-                <figure class="flex-img">
-                    
-                    <img src="img/portfolio/photo-1.jpg" alt="">
-                    <a href="">
-                        <span>Projekt</span>
-                    </a>
-                </figure>
-                
-                <figure class="flex-img">
-                    
-                    <img src="img/portfolio/photo-1.jpg" alt="">
-                    <a href="">
-                        <span>Projekt</span>
-                    </a>
-                </figure>
-                
-            </div>
-        </section>
-
-    </div>
-
+ 
 </body>
-
 </html>

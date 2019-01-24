@@ -1,0 +1,64 @@
+@media (max-width: 992px) {
+    
+    .flex-el {
+      flex-basis: 50%;
+      margin: 0;
+      position: relative;
+   }
+   }
+       @media (max-width:768px) {
+           .flex-el {
+      flex-basis: 100%;
+      margin: 0;
+      position: relative;
+   }
+       
+       
+       @media (max-width:480px) {
+   
+       .menu .drop-nav-label {
+           display: block;
+       }
+   
+       .menu-section {
+           display: none;
+              align-content: center;
+           opacity: 0.8;
+          
+       }
+       
+       
+       .menu #drop-nav:checked + .menu-section, .menu-section .menu-list {
+           display: block;
+          
+       }
+           
+           .menu ul {
+      align-content: left;
+       text-align:left;
+   
+   }
+           h2 {
+       margin-top:25%;
+   }
+           
+           ul .menu-section {
+               margin:0;
+           }
+   .menu a {
+       display: inline-block;
+       padding: 10px 15px;
+       color: #fff;
+       text-decoration: none;
+       transition: all .3s;
+       width: 90%;}
+           
+   .flex-form {
+      max-width: 100%;
+   
+   }
+   
+   .flex-form input {
+      flex: 0 0 100%;
+      display: inline-block;
+   
